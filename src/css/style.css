@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 :root {
-  --main-color: #a077ff; /* #02C3C8 #FBD627 */
+  --main-color: #17a0ee; /* #02C3C8 #FBD627 */
   --first-text-color: #ffffff;
 
   --main-bg-color: #121214;
@@ -10,12 +10,12 @@
   --shadow-color: rgba(0, 0, 0, 0.4);
   --white-color: #ffffff;
 
-  --main-border-radius: 0.5rem; /* 0.8rem */
+  --main-border-radius: 1rem; /* 0.8rem */
   --round-border-radius: 50%;
 }
 
 .light-mode:root {
-  --main-color: #743bfa;
+  /* --main-color: #743bfa; */
   --first-text-color: #363636;
 
   --main-bg-color: #fbfbfe;
@@ -75,6 +75,7 @@ body {
 .column__header h1 {
   font-size: 3rem;
   font-weight: 500;
+  cursor: default;
 }
 
 .column__header:hover > img {
@@ -88,6 +89,7 @@ body {
 .column__footer {
   font-size: 1.5rem;
   font-weight: 400;
+  cursor: default;
 }
 
 .links-list {
